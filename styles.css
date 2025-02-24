@@ -1,98 +1,129 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffe6ea;
     margin: 0;
     padding: 0;
-    text-align: center;
+    background-color: #fff;
 }
 
-header, footer {
-    background-color: #ffccd5;
-    padding: 15px;
+header {
+    background-color: #f8c6d1;
     text-align: center;
+    padding: 20px;
 }
 
-nav a {
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
     margin: 0 15px;
+}
+
+nav ul li a {
     text-decoration: none;
-    color: #8b4d59; /* Darker pink for links */
+    color: #333;
     font-weight: bold;
 }
 
 .container {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
     padding: 20px;
     max-width: 1200px;
     margin: auto;
 }
 
-.left, .middle, .right {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    flex: 1;
-    text-align: left;
+.sidebar {
+    background-color: #f2f2f2;
+    padding: 15px;
+    border-radius: 8px;
 }
 
-.left {
-    max-width: 250px;
+.sidebar h2 {
+    font-size: 18px;
+    color: #333;
 }
 
-.middle {
-    max-width: 600px;
-    text-align: center;
-}
-
-.right {
-    max-width: 250px;
-}
-
-h2 {
-    font-size: 20px;
-    color: #8b4d59; /* Darker pink for headings */
-}
-
-h1.main-heading {
-    font-size: 24px;
-    color: #d35b7d; /* Darker pink for the main heading */
-}
-
-ul {
-    list-style-type: none;
+.sidebar ul {
+    list-style: none;
     padding: 0;
 }
 
-ul li {
-    margin: 10px 0;
+.sidebar ul li {
+    margin: 5px 0;
 }
 
-ul li a {
-    color: #8b4d59; /* Darker pink for list links */
+.sidebar ul li a {
     text-decoration: none;
-    font-weight: bold;
+    color: #6a1b9a;
 }
 
-.highlight {
-    background-color: #ff94a2; /* Light pink background */
-    color: #8b4d59; /* Darker pink for text inside highlighted areas */
-    padding: 10px;
-    border-radius: 10px;
-    text-align: center;
+.advertisement {
     margin-top: 20px;
+    background-color: #d1d1d1;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
 }
 
-.image-container img, .highlight img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
+.content {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.content h2 {
+    font-size: 22px;
+    color: #d81b60;
+}
+
+.image-placeholder {
+    background-color: #ddd;
+    padding: 50px;
+    margin: 20px 0;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.banner {
+    background-color: #f2f2f2;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.rotating-banner {
+    background-color: #d1d1d1;
+    padding: 50px;
+    border-radius: 5px;
 }
 
 footer {
     background-color: #333;
+    color: white;
+    text-align: center;
     padding: 15px;
+    margin-top: 20px;
 }
 
-footer nav a {
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer ul li {
+    margin: 0 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
     color: white;
 }
