@@ -4,48 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fashion Trends</title>
-    <style>
- body {
-            font-family: Arial, sans-serif;
-            background-color: #ffe6ea;
-            margin: 0;
-            text-align: center;
-        }
-        header, footer {
-            background-color: #ffccd5;
-            padding: 15px;
-        }
-        nav a {
-            margin: 0 10px;
-            text-decoration: none;
-            color: #5c3c49;
-            font-weight: bold;
-        }
-        .container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            padding: 20px;
-        }
-        .section {
-            background: white;
-            margin: 10px;
-            padding: 20px;
-            border-radius: 10px;
-            width: 90%;
-            max-width: 600px;
-        }
-        .highlight {
-            background-color: #ff94a2;
-            padding: 20px;
-            border-radius: 10px;
-            color: white;
-        }
-  </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1 style="color: #5c3c49;">LOGO</h1>
+        <h1 class="logo">LOGO</h1>
         <nav>
             <a href="#">Home</a>
             <a href="#">Blogs</a>
@@ -60,9 +23,11 @@
             <div class="highlight">Advertising</div>
         </div>
         <div class="section">
-            <h1 style="color: #ff4f7a;">Heading</h1>
+            <h1 class="main-heading">Heading</h1>
             <p>Content about beauty, fashion trends, and styling tips.</p>
-            <div class="highlight">[Relevant Image]</div>
+            <div class="highlight">
+                <img src="images/fashion-trend.jpg" alt="Fashion Trend" class="responsive-img">
+            </div>
             <p>More engaging content...</p>
         </div>
         <div class="section">
