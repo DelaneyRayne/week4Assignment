@@ -1,75 +1,87 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: pink;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
+    text-align: center;
 }
 
 header {
-    background-color: #ffccd5;
+    background-color: hotpink;
     padding: 20px;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-.container {
+    color: white;
     display: flex;
     justify-content: space-between;
-    margin: 20px;
+    align-items: center;
 }
 
-.sidebar {
-    width: 20%;
-    background: white;
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
     padding: 20px;
+}
+
+.sidebar, .banner {
+    width: 20%;
+    background-color: lightpink;
+    padding: 15px;
+    border-radius: 10px;
 }
 
 .content {
-    width: 55%;
-    background: white;
+    width: 50%;
+    background-color: pink;
     padding: 20px;
-    text-align: center;
+    border-radius: 10px;
 }
 
-.banner {
-    width: 20%;
-    background: white;
-    padding: 20px;
+h1, h2 {
+    color: hotpink;
 }
 
-.image-placeholder {
-    width: 100%;
-    height: auto;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-
-footer ul {
-    list-style: none;
+ul {
+    list-style-type: none;
     padding: 0;
 }
 
-footer ul li {
-    display: inline;
-    margin: 0 10px;
+ul li a {
+    color: darkmagenta;
+    text-decoration: none;
 }
 
-footer ul li a {
+.ad, .rotating-banner {
+    background-color: hotpink;
+    color: white;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: hotpink;
+    padding: 15px;
+    color: white;
+}
+
+footer nav a {
     color: white;
     text-decoration: none;
+    margin: 0 10px;
 }
