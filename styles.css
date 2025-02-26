@@ -1,27 +1,27 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffe6f2; /* Light pastel pink */
+    background-color: #ffebf1; /* Lightest pink */
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
 header {
-    background-color: #ffb3d9; /* Soft pink */
+    background-color: #ffccd9; /* Soft pastel pink */
     padding: 20px;
-    color: white;
+    color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
 }
 
 nav a {
-    color: white;
+    color: #8a6d75; /* Muted pinkish-brown */
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
@@ -35,20 +35,26 @@ main {
 
 .sidebar, .banner {
     width: 20%;
-    background-color: #ffd6e6; /* Very light pink */
+    background-color: #ffeaf1; /* Softest pink */
     padding: 15px;
     border-radius: 10px;
 }
 
 .content {
     width: 50%;
-    background-color: #ffe6f2; /* Light pastel pink */
+    background-color: white;
     padding: 20px;
     border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2 {
-    color: #ff80bf; /* Slightly darker pink */
+h1 {
+    color: #d86b8c; /* Medium pink */
+    font-weight: bold;
+}
+
+h2 {
+    color: #8a6d75; /* Muted pinkish-brown */
 }
 
 ul {
@@ -57,26 +63,28 @@ ul {
 }
 
 ul li a {
-    color: #cc6699; /* Soft mauve */
+    color: #d86b8c; /* Medium pink */
     text-decoration: none;
 }
 
 .ad, .rotating-banner {
-    background-color: #ffb3d9; /* Soft pink */
+    background-color: #f28da1; /* Deeper pink */
     color: white;
-    padding: 20px;
+    padding: 10px;
     margin-top: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 14px;
 }
 
 img {
-    width: 60%; /* Smaller image */
+    width: 50%; /* Smaller image */
     border-radius: 10px;
     margin-top: 10px;
 }
 
 footer {
-    background-color: #ffb3d9; /* Soft pink */
+    background-color: #3c3c3c; /* Dark gray */
     padding: 15px;
     color: white;
 }
@@ -85,4 +93,5 @@ footer nav a {
     color: white;
     text-decoration: none;
     margin: 0 10px;
+    font-weight: bold;
 }
