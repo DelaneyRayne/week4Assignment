@@ -1,18 +1,30 @@
+/* Light pastel color palette */
+:root {
+    --background-pink: #ffeff5; /* Lightest pink */
+    --header-pink: #ffe4ec; /* Softer pastel pink */
+    --box-pink: #ffdee9; /* Light pink for boxes */
+    --text-pink: #d89ba5; /* Muted rose */
+    --highlight-pink: #f8c8d8; /* Soft pastel highlight */
+    --deep-pink: #f3a6b5; /* Slightly darker pink */
+    --footer-dark: #4a4a4a; /* Soft black */
+}
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffebf1; /* Lightest pink */
+    background-color: var(--background-pink);
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
 header {
-    background-color: #ffccd9; /* Soft pastel pink */
+    background-color: var(--header-pink);
     padding: 20px;
     color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 2px solid var(--deep-pink);
 }
 
 .logo {
@@ -21,10 +33,15 @@ header {
 }
 
 nav a {
-    color: #8a6d75; /* Muted pinkish-brown */
+    color: var(--text-pink);
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: var(--deep-pink);
 }
 
 main {
@@ -35,26 +52,26 @@ main {
 
 .sidebar, .banner {
     width: 20%;
-    background-color: #ffeaf1; /* Softest pink */
+    background-color: var(--box-pink);
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .content {
     width: 50%;
     background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
 }
 
 h1 {
-    color: #d86b8c; /* Medium pink */
+    color: var(--deep-pink);
     font-weight: bold;
 }
 
 h2 {
-    color: #8a6d75; /* Muted pinkish-brown */
+    color: var(--text-pink);
 }
 
 ul {
@@ -63,12 +80,12 @@ ul {
 }
 
 ul li a {
-    color: #d86b8c; /* Medium pink */
+    color: var(--deep-pink);
     text-decoration: none;
 }
 
 .ad, .rotating-banner {
-    background-color: #f28da1; /* Deeper pink */
+    background-color: var(--highlight-pink);
     color: white;
     padding: 10px;
     margin-top: 10px;
@@ -78,13 +95,13 @@ ul li a {
 }
 
 img {
-    width: 50%; /* Smaller image */
+    width: 45%; /* Smaller, more elegant image */
     border-radius: 10px;
     margin-top: 10px;
 }
 
 footer {
-    background-color: #3c3c3c; /* Dark gray */
+    background-color: var(--footer-dark);
     padding: 15px;
     color: white;
 }
