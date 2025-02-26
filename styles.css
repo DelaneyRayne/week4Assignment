@@ -13,7 +13,7 @@ header {
     padding: 15px;
 }
 
-/* Darker Navigation Text for "Home, Blogs, About" */
+/* Navigation Text for "Home, Blogs, About" */
 nav a {
     margin: 0 10px;
     color: #9b5a67; /* Darker muted pink */
@@ -62,7 +62,7 @@ footer {
     padding: 15px;
 }
 
-/* Lightened Footer Navigation Text for "Home, Lookbook, Quizzes, Video Tutorials, Contact, Social Media" */
+/* Footer Navigation Text for "Home, Lookbook, Quizzes, Video Tutorials, Contact, Social Media" */
 footer nav a {
     color: #d8a9b1; /* Light pastel pink */
     margin: 0 10px;
