@@ -1,50 +1,22 @@
-/* Light pastel color palette */
-:root {
-    --background-pink: #ffeff5; /* Lightest pink */
-    --header-pink: #ffe4ec; /* Softer pastel pink */
-    --box-pink: #ffdee9; /* Light pink for boxes */
-    --text-pink: #d89ba5; /* Muted rose */
-    --highlight-pink: #f8c8d8; /* Soft pastel highlight */
-    --deep-pink: #f3a6b5; /* Slightly darker pink */
-    --footer-dark: #4a4a4a; /* Soft black */
-}
-
 body {
     font-family: Arial, sans-serif;
-    background-color: var(--background-pink);
-    margin: 0;
-    padding: 0;
+    background-color: #ffeff5; /* Light pastel pink */
     text-align: center;
+    margin: 0;
 }
 
 header {
-    background-color: var(--header-pink);
-    padding: 20px;
-    color: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 2px solid var(--deep-pink);
-}
-
-.logo {
-    font-size: 28px;
-    font-weight: bold;
+    background-color: #ffe4ec; /* Soft pink */
+    padding: 15px;
 }
 
 nav a {
-    color: var(--text-pink);
+    margin: 0 10px;
+    color: #d89ba5; /* Muted pink */
     text-decoration: none;
-    margin: 0 15px;
-    font-weight: bold;
-    transition: color 0.3s;
 }
 
-nav a:hover {
-    color: var(--deep-pink);
-}
-
-main {
+.container {
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -52,63 +24,32 @@ main {
 
 .sidebar, .banner {
     width: 20%;
-    background-color: var(--box-pink);
-    padding: 15px;
-    border-radius: 15px;
+    background-color: #ffdee9; /* Light pink */
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .content {
     width: 50%;
     background-color: white;
-    padding: 25px;
-    border-radius: 15px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
-}
-
-h1 {
-    color: var(--deep-pink);
-    font-weight: bold;
-}
-
-h2 {
-    color: var(--text-pink);
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-ul li a {
-    color: var(--deep-pink);
-    text-decoration: none;
-}
-
-.ad, .rotating-banner {
-    background-color: var(--highlight-pink);
-    color: white;
-    padding: 10px;
-    margin-top: 10px;
-    border-radius: 20px;
-    display: inline-block;
-    font-size: 14px;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 img {
-    width: 45%; /* Smaller, more elegant image */
+    width: 60%;
     border-radius: 10px;
+}
+
+.ad, .rotating-banner {
+    background-color: #f8c8d8; /* Pastel pink highlight */
+    padding: 10px;
     margin-top: 10px;
+    border-radius: 5px;
 }
 
 footer {
-    background-color: var(--footer-dark);
-    padding: 15px;
+    background-color: #4a4a4a; /* Dark gray */
     color: white;
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-    font-weight: bold;
+    padding: 10px;
 }
