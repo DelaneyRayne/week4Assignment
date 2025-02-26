@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: pink;
+    background-color: #ffe6f2; /* Light pastel pink */
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
 header {
-    background-color: hotpink;
+    background-color: #ffb3d9; /* Soft pink */
     padding: 20px;
     color: white;
     display: flex;
@@ -35,20 +35,20 @@ main {
 
 .sidebar, .banner {
     width: 20%;
-    background-color: lightpink;
+    background-color: #ffd6e6; /* Very light pink */
     padding: 15px;
     border-radius: 10px;
 }
 
 .content {
     width: 50%;
-    background-color: pink;
+    background-color: #ffe6f2; /* Light pastel pink */
     padding: 20px;
     border-radius: 10px;
 }
 
 h1, h2 {
-    color: hotpink;
+    color: #ff80bf; /* Slightly darker pink */
 }
 
 ul {
@@ -57,12 +57,12 @@ ul {
 }
 
 ul li a {
-    color: darkmagenta;
+    color: #cc6699; /* Soft mauve */
     text-decoration: none;
 }
 
 .ad, .rotating-banner {
-    background-color: hotpink;
+    background-color: #ffb3d9; /* Soft pink */
     color: white;
     padding: 20px;
     margin-top: 10px;
@@ -70,12 +70,13 @@ ul li a {
 }
 
 img {
-    width: 100%;
+    width: 60%; /* Smaller image */
     border-radius: 10px;
+    margin-top: 10px;
 }
 
 footer {
-    background-color: hotpink;
+    background-color: #ffb3d9; /* Soft pink */
     padding: 15px;
     color: white;
 }
